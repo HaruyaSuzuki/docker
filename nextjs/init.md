@@ -2,9 +2,7 @@
 ## Notice
 The Vercel platform does not support the deployment of Docker images.
 
-[Vercel] Does Vercel support Docker deployments?
-
-https://vercel.com/support/articles/does-vercel-support-docker-deployments
+Vercel: [Does Vercel support Docker deployments?](https://vercel.com/support/articles/does-vercel-support-docker-deployments)
 
 So basically, build a development environment using ShellScript.
 
@@ -27,7 +25,7 @@ cd [your project name]
 docker-compose run --rm app npm install create-next-app
 ```
 
-5. install create-next app
+5. install Next.js(TypeScript)
 ```
 docker-compose run --rm app npx create-next-app frontend --ts
 ```
